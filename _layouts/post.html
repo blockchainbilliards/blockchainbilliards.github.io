@@ -36,19 +36,23 @@
                     {%- include body.html -%}
 
                     {% if page.previous %}
-                        <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
-                            <i class="fa fa-angle-left"></i>
+                        <a href="{{site.baseurl}}{{page.previous.url}}" style="vertical-align: top" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
+                            <span style="font-size: medium; margin-right: 8px;"><i class="fa fa-angle-left" style="margin-right: 5px;"></i>Previous: {{page.previous.title}}</span>
                         </a>
                     {% else %}
                         <a href="{{site.baseurl}}/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{site.title}}">
-                            <i class="fa fa-angle-left"></i>
+                            <span style="font-size: medium; margin-right: 8px;"><i class="fa fa-angle-left" style="margin-right: 5px;"></i>Previous: {{site.title}}</span>
                         </a>
                     {% endif %}
 
                     {% if page.next %}
-                        <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
+                    <a href="{{site.baseurl}}{{page.next.url}}" style="vertical-align: top" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}" style="display: flex; align-items: center; text-decoration: none;">
+                        <span style="font-size: medium; margin-right: 8px;">Next: {{page.next.title}}<i class="fa fa-angle-right" style="margin-left: 5px;"></i></span>
+                        
+                      </a>
+                      
+                      
+                      
                     {% endif %}
                 </div>
             </div>

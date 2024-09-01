@@ -3,3 +3,85 @@
  * Its purpose is for users of the theme to be able to add css rules from a blank file
  *   these get simply added to the ones already active in the layout.
  */
+
+ h1, h2, h3 {
+    font-family: "Exo 2", sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+    color: #F1F3F2 !important;
+}
+
+body {
+    color: #F1F3F2 !important;
+    background-color: #192C22 !important;
+}
+
+p, li, i, a, ::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold !important;
+    color: #F1F3F2 !important;
+}
+
+::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold !important;
+    color: #f1f3f28e !important;
+}
+
+span.search-highlight-keyword {
+    background-color: #74d5a0 !important;
+}
+
+.btn.pull-right.js-toolbar-action, .dropdown.pull-right.js-toolbar-action {
+    display: none !important;
+}
+
+.fa-align-justify {
+    font-size: large;
+}
+.body-inner.i.fa {
+    font-size: x-large;
+    vertical-align: sub;
+}
+
+.divider {
+    font-family: 'Raleway', sans-serif;
+    background-color: #74d5a0 !important;
+}
+
+.book-body {
+    background-color: #181A19;
+    background-image: radial-gradient(circle, #192C22, #181A19);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.book-header {
+    background-color: transparent !important;
+}
+.markdown-section pre {
+    background-color: #74d5a0d1;
+}
+
+.markdown-section code {
+    background-color: #74d5a0d1;
+    background-blend-mode: darken;
+    color: #192C22;
+}
+
+.book-summary {
+    background-color: #181A19; /* Fallback color */
+    background-image: radial-gradient(circle, #192C22, #181A19);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.book-header {
+    color: #F1F3F2 !important;
+}
+
+.fa-twitter, .fa-facebook, .fa-github, .fa-share-alt, .fa-font {
+    display: none;
+}

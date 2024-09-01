@@ -16,19 +16,22 @@
             {%- include toc-date.html -%}
 
             <div class="book-body">
-                <div class="book-header" role="navigation">
-                    <!-- Title -->
-                    <h1>
-                        <i class="fa fa-circle-o-notch fa-spin"></i>
+              
+               <div class="book-header" role="navigation">
+                   <!-- Title -->
+                    <h1 style="color: white !important;">
                         {% if page.title %}
-                            <a href="." >{{ page.title | escape }}</a>
+                            <a  style="color: white !important;" href="https://www.blockchainbilliards.io" >{{ page.title | escape }}</a>
                         {% else %}
                             <a href="." >{{ site.title | escape }}</a>
                         {% endif %}
                     </h1>
+                    
                 </div>
+                
 
                 <div class="body-inner">
+                    
                     {%- include body.html -%}
 
                     <a href="{{site.baseurl}}/" class="navigation navigation-pre navigation-unique">
@@ -36,9 +39,11 @@
                     </a>
 
                     {% if reversed_posts %}
-                        <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
+                            <a href="{{site.baseurl}}{{reversed_posts.first.url}}" style="vertical-align: top" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}" style="display: flex; align-items: center; text-decoration: none;">
+                                <span style="font-size: medium; margin-right: 8px;">Next: {{reversed_posts.first.title}}<i class="fa fa-angle-right" style="margin-left: 5px;"></i></span>
+                                
+                              </a>
+               
                     {% endif %}
                 </div>
             </div>

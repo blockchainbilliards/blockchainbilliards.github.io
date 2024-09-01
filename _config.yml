@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Blockchain Billiards Whitepaper
+longtitle:        Blockchain Billiards Whitepaper
+author:           Dr. Linda Goto, PhD
+email:            linda@blockchainbilliards.io
 description: >
-  Build Jekyll site with the GitBook style.
+  This site explains the technical and web3 aspects of the Blockchain Billiards project
 
 version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+baseurl:          '/whitepaper'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself

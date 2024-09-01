@@ -20,14 +20,23 @@
                 }
             }
             return true;
-        }
+        } 
     </script>
 
-    <nav role="navigation">
-        <div id="book-search-input" role="search">
-            <input type="text" placeholder="Type to search" />
+    <nav role="navigation" style="background-color: #181A19 !important; color: #F1F3F2 !important">
+        <div id="main-website" role="nav-home" style="display: flex; align-items: center; align-items: center; margin-left: 10px; padding-top: 10px;">
+            <a href="https://www.blockchainbilliards.io" style="display: flex; align-items: center; text-decoration: none;">
+              <div className="blockchain-logo" style="height: 70px; width: 70px;  background-color: #181A19; display: inline-block; background-image: url(https://identity.blockchainbilliards.io/static/media/transparent-logo.dafc6358cb48751b2ef1.png); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+              <div style="display: inline-block; margin-top: -8px; vertical-align: middle; padding-left: 5px; text-wrap: nowrap;">
+                <h3>Blockchain Billiards</h3>
+              </div>
+            </a>
+          </div>
+          
+        <div id="book-search-input" style="padding-left: 20px; color:  #F1F3F2 !important; " role="search">
+            <input type="text" style="color:  #F1F3F2 !important; " placeholder="Click to search" />
         </div>
-        <div id="book-search-input-link" role="search">
+        <div id="book-search-input-link" style="padding-left: 20px !important;" role="search">
             <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
         </div>
         <ul class="summary">

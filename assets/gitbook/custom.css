@@ -54,7 +54,7 @@
 }
 
 .book.color-theme-1 .book-body .book-header {
-    background: #f3eacb;
+    background: black;
 }
 
 .book.color-theme-2 .book-body .book-header {
@@ -163,6 +163,8 @@
 .book.font-family-1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
 
 /* Render wide tables */
 

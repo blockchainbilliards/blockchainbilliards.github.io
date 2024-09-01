@@ -44,8 +44,8 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
 		);
 
 		setTimeout(function() {
-			var isGreaterThanEqualGitbookV2_5 = !Boolean($('.toggle-summary').length);
-
+			var isGreaterThanEqualGitbookV2_5 = true; //!Boolean($('.toggle-summary').length);
+console.log('hi')
 			var $toggleSummary = isGreaterThanEqualGitbookV2_5
 				? $('.fa.fa-align-justify').parent() : $('.toggle-summary');
 
@@ -92,6 +92,7 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
 			}
 			event.stopPropagation();
 			event.preventDefault();
+			console.log('movey')
 			$summary.outerWidth(event.pageX + grabPointWidth);
 			$bookBody.offset({ left: event.pageX + grabPointWidth });
 		});
