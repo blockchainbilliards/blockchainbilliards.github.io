@@ -1,235 +1,59 @@
 ---
 layout: home
-title: Whitepaper Home
+title: Blockchain Billiards Whitepaper
 permalink: /
 ---
 
-Make Jelly site have a GitBook look! Blockchain Billiards!
+## Introduction
 
-## Demo
+This document serves as the official whitepaper for Blockchain Billiards, detailing our mission, approach, and innovative use of blockchain technology to revolutionize democratic engagement in sports. A whitepaper is an authoritative report or guide that informs readers about complex issues, presents a philosophy, and offers solutions. In this whitepaper, we explore how Blockchain Billiards leverages decentralized technologies to empower community participation, redefine governance, and enhance the player experience in a billiards league. 
 
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+### League Overview
 
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
+Blockchain Billiards is more than a traditional sports league; it is an experiment in decentralized governance and democratic engagement. Governed by a Decentralized Autonomous Organization (DAO), our League allows every participant to have a say in its operations, from game rules to treasury management. This section will explore how we use blockchain technology to ensure that every member’s voice is heard and every effort is rewarded. It will also cover our inclusive onboarding process, designed to make blockchain technology accessible to everyone, regardless of their technical background.
 
-## Why Jekyll with GitBook
+### Mission Statement
 
-GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the `gh-pages`
-branch. It's quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.
+Our mission at Blockchain Billiards is to shift the paradigm from top-down leadership to collective decision-making. We believe in empowering individuals to contribute to a shared vision, whether through their participation in games or by proposing and voting on new league policies. This section will delve into the philosophy behind our approach and highlight the benefits of fostering a community-driven environment, using real-world examples to illustrate the power of collective wisdom.
 
-This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.
+### Our Commitment to Democracy
 
-## How to Get Started
+Blockchain Billiards aims to be a proof-of-concept for how DAO technology can drive meaningful change in real-world settings. Our commitment to democracy goes beyond just allowing votes; it encompasses providing education, facilitating engagement, and fostering an environment where every participant can have a significant impact. In this section, we will discuss our strategies for making DAO technology accessible and effective for all members, regardless of their technical expertise.
 
-This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
-see [the official guide][13] as well.
+### Commitment to Sharing and Open-Source Data
 
-You can introduce this jekyll theme into your own site by either
+Transparency and openness are core to our philosophy. We believe that sharing knowledge and insights is crucial for the broader adoption of DAO technologies. This section will explain our commitment to open-source data and how we plan to use our successes and lessons learned to guide other organizations looking to implement similar governance models. By documenting our journey and making our findings publicly available, we aim to encourage wider use of decentralized governance.
 
-- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
-- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
-  site itself),
+### Why Blockchain Billiards?
 
-```yaml
-remote_theme: sighingnow/jekyll-gitbook
-```
+This section will explore the unique value proposition of Blockchain Billiards, highlighting why billiards is the perfect sport for this innovative governance model. We will discuss how billiards fosters inclusivity and community and how these values align with our vision for a DAO-governed league. The section will also detail the benefits of integrating blockchain technology into real-world sports, creating a seamless blend of physical and digital experiences.
 
-### Deploy Locally with Jekyll Serve
+### League Governance
 
-This theme can be ran locally using Ruby and Gemfiles.
+Governance is at the heart of Blockchain Billiards. This section will explain the mechanics of our DAO, including how decisions are made, who gets to vote, and what role smart contracts play in ensuring transparency and accountability. We will outline the different governance structures within the League, such as member-delegates and committees, and how these contribute to a democratic, efficient, and innovative league environment.
 
-[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
+### League Rewards
 
-## Full-text search
+Blockchain Billiards offers a unique rewards system that blends physical and digital achievements. This section will discuss how members earn digital collectibles, NFTs, and other rewards for their participation, performance, and sportsmanship. We will explore the economic model that underpins our rewards system, explaining how it incentivizes continuous engagement and fosters a sense of ownership and pride among members.
 
-The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
+### League Timeline
 
-[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
+Our journey from Beta to a formal league is just beginning. This section will provide an overview of our timeline, including key milestones like the introduction of the handbook, handicap system, and additional league features. We will discuss our plans for future updates and how we aim to evolve the League to meet the needs and interests of our community.
 
-## Code highlight
+### Earning NFTs
 
-The code highlight style is configurable the following entry in `_config.yaml`:
+Blockchain Billiards not only rewards in-game success but also integrates achievements into the digital realm through NFTs. This section will outline how players can earn, trade, and use NFTs within our ecosystem, turning their physical achievements into valuable digital assets. We will also discuss the integration of NFTs into the Blockchain Billiards game and how they enhance the overall gaming experience.
 
-```yaml
-syntax_highlighter_style: colorful
-```
+### DAO: Empowering the Community
 
-The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
-style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
+The Blockchain Billiards DAO is a cornerstone of our community-driven model. This section will provide an in-depth look at how the DAO functions, its origins, and its impact on the League and its members. We will highlight the educational initiatives we’ve put in place to ensure all members can participate fully, regardless of their initial familiarity with blockchain technology. By empowering our community through the DAO, we aim to foster innovation, collaboration, and a shared sense of ownership.
 
-## How to generate TOC
+### Game Mechanics
 
-The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in `_config.yml`:
+Our game mechanics are designed to replicate the excitement and strategy of real-world billiards while leveraging the advantages of digital gameplay. This section will describe the various game formats, matchmaking processes, and the integration of real-time play, all aimed at providing an immersive and fair experience for all players. We will also discuss how leaderboards and in-game rewards create a competitive yet rewarding environment.
 
-```yaml
-toc:
-    enabled: true
-    h_min: 1
-    h_max: 3
-```
+### Blockchain Billiards Rewards
 
-## Google Analytics, etc.
+Beyond the League, Blockchain Billiards offers a robust in-game economy that blends physical and digital rewards. This section will explain how our “phygital” rewards system works, the role of NFTs and digital currency in enhancing gameplay, and the opportunities for players to earn real-world value through their in-game achievements. We will detail the ways players can use these rewards, both in and out of the game, to maximize their experience and engagement.
 
-The jekyll-gitboook theme supports embedding the [Google Analytics][7], [CNZZ][8] and [Application Insights][9] website analytical tools with the following
-minimal configuration in `_config.yaml`:
-
-```yaml
-tracker:
-  google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
-```
-
-Similarly, CNZZ can be added with the following configuration in `_config.yaml`
-
-```yaml
-tracker:
-  cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
-```
-
-Application Insights can be added with the following configuration in `_config.yaml`
-
-```yaml
-tracker:
-  application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
-```
-
-## Disqus comments
-
-[Disqus](https://disqus.com/) comments can be enabled by adding the following configuration in `_config.yaml`:
-
-```yaml
-disqushandler: "<YOUR DISQUS SHORTNAME>"
-```
-
-## Jekyll collections
-
-Jekyll's [collections][15] is supported to organize the pages in a more fine-grained manner, e.g.,
-
-```yaml
-collections:
-  pages:
-    output: true
-    sort_by: date
-    permalink: /:collection/:year-:month-:day-:title:output_ext
-  others:
-    output: true
-    sort_by: date
-    permalink: /:collection/:year-:month-:day-:title:output_ext
-```
-
-An optional `ordered_collections` key can be added to `_config.yaml` to control the order of collections in the sidebar:
-
-```yaml
-ordered_collections:
-  - posts
-  - pages
-  - others
-```
-
-If not specified, the order of collections would be decided by Jekyll. Note that the key `posts` is a special collection
-that indicates the `_posts` pages of Jekyll.
-
-## Extra StyleSheet or Javascript elements
-
-You can add extra CSS or JavaScript references using configuration collections:
-
-- extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-
-## Customizing font settings
-
-The fonts can be customized by modifying the `.book.font-family-0` and `.book.font-family-1` entry in [`./assets/gitbook/custom.css`][10],
-
-```css
-.book.font-family-0 {
-    font-family: Georgia, serif;
-}
-.book.font-family-1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-```
-
-## Tips, Warnings and Dangers blocks
-
-The jekyll-gitbook theme supports customized kramdown attributes (`{: .block-tip }`, `{: .block-warning }`,
-`{: .block-danger }`) like that displayed in [the discord.js website][11]. The marker can be used like
-
-```markdown
-> ##### TIP
->
-> This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
-> this or a similar version after installation.
-{: .block-tip }
-```
-
-Rendered page can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
-
-## Cover image inside pages
-
-The jekyll-gitbook theme supports adding a cover image to a specific page by adding
-a `cover` field to the page metadata:
-
-```diff
-  ---
-  title: Page with cover image
-  author: Tao He
-  date: 2022-05-24
-  category: Jekyll
-  layout: post
-+ cover: /assets/jekyll-gitbook/dinosaur.gif
-  ---
-```
-
-The effect can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html)
-
-## Diagrams with mermaid.js
-
-This jekyll-theme supports [mermaid.js](https://mermaid.js.org/) to render diagrams
-in markdown.
-
-To enable the mermaid support, you need to set `mermaid: true` in the front matter
-of your post.
-
-```markdown
----
-mermaid: true
----
-```
-
-The example can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html)
-
-## License
-
-This work is open sourced under the Apache License, Version 2.0.
-
-Copyright 2019 Tao He.
-
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
-[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
-[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
-[7]: https://analytics.google.com/analytics/web/
-[8]: https://www.cnzz.com/
-[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
-[10]: https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css
-[11]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
-[12]: https://rubygems.org/gems/jekyll-remote-theme
-[13]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-[14]: https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml
-[15]: https://jekyllrb.com/docs/collections/
+By reading this whitepaper, you’ll gain a comprehensive understanding of Blockchain Billiards, our vision for decentralized governance, and how we’re using technology to innovate in the world of sports. We invite you to join us on this journey to revolutionize the way communities engage, collaborate, and thrive.
