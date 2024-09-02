@@ -4,7 +4,7 @@
  *   these get simply added to the ones already active in the layout.
  */
 
- h1, h2, h3 {
+ h1, h2, h3, h4 {
     font-family: "Exo 2", sans-serif !important;
     text-transform: uppercase !important;
     font-weight: bolder !important;
@@ -18,8 +18,12 @@ body {
 
 p, li, i, a, ::placeholder {
     font-family: 'Raleway', sans-serif;
-    font-weight: bold !important;
+    font-weight: 300 !important;
     color: #F1F3F2 !important;
+}
+
+p a {
+    text-decoration: underline !important;
 }
 
 ::placeholder {

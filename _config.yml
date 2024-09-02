@@ -50,17 +50,20 @@ exclude:
   - _drafts
 
 collections:
-  pages:
+  league:
     output: true
     permalink: /:collection/:path/
-  others:
+  game:
+    output: true
+    permalink: /:collection/:path/
+  general:
     output: true
     permalink: /:collection/:path/
 
 ordered_collections:
-  - posts
-  - pages
-  - others
+  - league
+  - game
+  - general
 
 page_width: 800px
 

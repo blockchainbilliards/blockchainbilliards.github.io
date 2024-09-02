@@ -6,6 +6,7 @@ category: Jekyll
 layout: post
 ---
 
+The game and its NFT marketplace are currently under development and are subject to change as we continue to build and refine the platform. While we are committed to implementing the game mechanics outlined in this whitepaper, please be aware that features, functionalities, and other aspects of the game and marketplace may evolve. We will provide updates as development progresses to ensure transparency and keep our community informed.
 
 ### Game Formats
 - Choose from various classic pool games.
